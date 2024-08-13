@@ -40,7 +40,7 @@ Below is the detailed solution's breakdown.
 
 ## Deploy Systems Manager Automation Document
 
-1.  Open AWS CloudShell.
+1.  Open [AWS CloudShell](https://ap-southeast-2.console.aws.amazon.com/cloudshell/home?region=ap-southeast-2#) in ap-southeast-2 region.
 
 2.  Run below commands to deploy the AWS Systems Manager Runbook and other supporting resources.
 
@@ -66,7 +66,8 @@ Below is the detailed solution's breakdown.
 
     <img src="./static/images/subscribe.png" width="500" />
 
-
+5.  Open [AWS Well-Architected Tool](https://ap-southeast-2.console.aws.amazon.com/wellarchitected/home?region=ap-southeast-2) in in ap-southeast-2 region
+6.  o to Settings, and enable Discovery integration.
 
 ## Running Systems Manager Automation Document
 

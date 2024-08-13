@@ -53,10 +53,10 @@ Below is the detailed solution's breakdown.
 
 3.  Enter values of below parameters, and select default for the rest of the prompts
 
-    - **Stack Name** = This is the CloudFormation stack name containing all the solution resources.
-    - **AWS Region** = This is the AWS Region where the CloudFormation stack will be created.
-    - **TAResourceReportBucket** = This is the S3 Bucket name where the solution will place the report. ( A new S3  bucket will be created, make sure the bucket is unique   )
-    - **UseReportOwnURL** = This is the url prefix to access the report stored in S3 bucket ( Include https:// in the field). If left empty, the AWS Console URL will be used. 
+    - **Stack Name** = Enter the CloudFormation stack name for the app `tawa-opt`.
+    - **AWS Region** = This is the AWS Region where the CloudFormation stack will be created `ap-southeast-2`.
+    - **TAResourceReportBucket** = Enter a unique S3 Bucket for reporting `<accountid>-tawa-report` replace <accountid> with your account id. ( A new S3  bucket will be created, make sure the bucket is unique   )
+    - **UseReportOwnURL** = Leave this field empty. 
     - **NotificationEmail** = This is the email address to notify users of the report url.
     
     

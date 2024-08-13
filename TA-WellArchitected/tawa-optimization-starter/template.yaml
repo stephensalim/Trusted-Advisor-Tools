@@ -4,7 +4,7 @@ Description: TrustedAdvisor WAFR Starter
 Globals:
   Function:
     Timeout: 900
-    MemorySize: 10240
+    MemorySize: 3008
 
 Parameters:
   TAResourceReportBucket:

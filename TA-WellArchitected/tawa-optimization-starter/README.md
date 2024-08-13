@@ -40,12 +40,13 @@ Below is the detailed solution's breakdown.
 
 ## Deploy Systems Manager Automation Document
 
-1.  Follow the instruction [here](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/install-sam-cli.html) to Install SAM CLI.
+1.  Open AWS CloudShell.
 
-2.  Run below commands to deploy the AWS Systems Manager Runbook and other supporting 
-
+2.  Run below commands to deploy the AWS Systems Manager Runbook and other supporting resources.
 
     ```
+    git clone https://github.com/stephensalim/Trusted-Advisor-Tools.git
+    cd Trusted-Advisor-Tools/TA-WellArchitected/tawa-optimization-starter/
     sam build 
     sam deploy --guided --resolve-s3 --capabilities CAPABILITY_NAMED_IAM
     ```
